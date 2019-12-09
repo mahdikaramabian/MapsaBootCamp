@@ -23,3 +23,5 @@ def dbQueryBylist(dbCursor, query, myList):
         return True
     except:
         return False
+
+def dbremoverow(name):
